@@ -9,8 +9,9 @@
                     <div class="header-top-content">
                         <div class="header-left">
                             <ul class="list-items">
-                                <li><a href="#"><i class="la la-phone mr-1"></i>(123) 123-456</a></li>
-                                <li><a href="#"><i class="la la-envelope mr-1"></i>travel@example.com</a></li>
+                                <li><a href="#"><i class="la la-phone mr-1"></i>(+212) 123-456</a></li>
+                                <li><a href="#"><i class="la la-envelope mr-1"></i>travel@gmailwebsite.com</a>
+                                </li>
                             </ul>
                         </div>
                     </div>

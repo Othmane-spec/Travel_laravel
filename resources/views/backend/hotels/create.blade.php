@@ -276,7 +276,8 @@
                                 <div class="contact-form-action">
                                     <form action="#">
                                         <div class="form-group mb-0">
-                                            <input class="form-control" type="text" name="text" placeholder="Search">
+                                            <input class="form-control" type="text" name="text"
+                                                placeholder="Search">
                                             <button class="search-btn"><i class="la la-search"></i></button>
                                         </div>
                                     </form>
@@ -295,8 +296,8 @@
                                             <div
                                                 class="dropdown-menu dropdown-reveal dropdown-menu-xl dropdown-menu-right">
                                                 <div class="dropdown-header drop-reveal-header">
-                                                    <h6 class="title">You have <strong
-                                                            class="text-black">4</strong> notifications</h6>
+                                                    <h6 class="title">You have <strong class="text-black">4</strong>
+                                                        notifications</h6>
                                                 </div>
                                                 <div class="list-group drop-reveal-list">
                                                     <a href="#" class="list-group-item list-group-item-action">
@@ -342,7 +343,8 @@
                                                         </div><!-- end msg-body -->
                                                     </a>
                                                 </div>
-                                                <a href="#" class="dropdown-item drop-reveal-btn text-center">View
+                                                <a href="#"
+                                                    class="dropdown-item drop-reveal-btn text-center">View
                                                     all</a>
                                             </div><!-- end dropdown-menu -->
                                         </div>
@@ -358,8 +360,8 @@
                                             <div
                                                 class="dropdown-menu dropdown-reveal dropdown-menu-xl dropdown-menu-right">
                                                 <div class="dropdown-header drop-reveal-header">
-                                                    <h6 class="title">You have <strong
-                                                            class="text-black">4</strong> messages</h6>
+                                                    <h6 class="title">You have <strong class="text-black">4</strong>
+                                                        messages</h6>
                                                 </div>
                                                 <div class="list-group drop-reveal-list">
                                                     <a href="#" class="list-group-item list-group-item-action">
@@ -427,7 +429,8 @@
                                                         </div><!-- end msg-body -->
                                                     </a>
                                                 </div>
-                                                <a href="#" class="dropdown-item drop-reveal-btn text-center">View
+                                                <a href="#"
+                                                    class="dropdown-item drop-reveal-btn text-center">View
                                                     all</a>
                                             </div><!-- end dropdown-menu -->
                                         </div>
@@ -448,16 +451,8 @@
                                                     <h6 class="title text-uppercase">Welcome!</h6>
                                                 </div>
                                                 <div class="list-group drop-reveal-list user-drop-reveal-list">
-                                                    <a href="admin-dashboard-settings.html"
-                                                        class="list-group-item list-group-item-action">
-                                                        <div class="msg-body">
-                                                            <div class="msg-content">
-                                                                <h3 class="title"><i
-                                                                        class="la la-user mr-2"></i> Edit Profile</h3>
-                                                            </div>
-                                                        </div><!-- end msg-body -->
-                                                    </a>
-                                                    <a href="admin-dashboard-orders.html"
+
+                                                    <a href="{{ route('booking.index') }}"
                                                         class="list-group-item list-group-item-action">
                                                         <div class="msg-body">
                                                             <div class="msg-content">
@@ -475,7 +470,7 @@
                                                             </div>
                                                         </div><!-- end msg-body -->
                                                     </a>
-                                                    <a href="admin-dashboard-settings.html"
+                                                    <a href="{{ route('admin_settings') }}"
                                                         class="list-group-item list-group-item-action">
                                                         <div class="msg-body">
                                                             <div class="msg-content">
@@ -485,7 +480,7 @@
                                                         </div><!-- end msg-body -->
                                                     </a>
                                                     <div class="section-block"></div>
-                                                    <a href="index.html"
+                                                    <a href="{{ route('logout') }}"
                                                         class="list-group-item list-group-item-action">
                                                         <div class="msg-body">
                                                             <div class="msg-content">
@@ -600,7 +595,8 @@
                                                 <div class="file-drop-icon ci-cloud-upload"></div><span
                                                     class="file-drop-message">Drag and
                                                     drop here to upload hotel screenshot</span>
-                                                <input class="file-drop-input" type="file" multiple name="photo">
+                                                <input class="file-drop-input" type="file" multiple
+                                                    name="photo">
                                                 <button class="file-drop-btn btn btn-primary btn-sm mb-2"
                                                     type="button">Or select
                                                     file</button>
@@ -610,8 +606,8 @@
                                             </div>
                                             <div class="mb-3 py-2">
                                                 <label class="form-label" for="unp-hotel-details">Details</label>
-                                                <textarea class="form-control @error('details') is-invalid @enderror"
-                                                    rows="6" id="unp-hotel-details" name="details"></textarea>
+                                                <textarea class="form-control @error('details') is-invalid @enderror" rows="6" id="unp-hotel-details"
+                                                    name="details"></textarea>
                                                 @error('details')
                                                     <strong class="text-danger">{{ $message }}</strong>
                                                 @enderror
@@ -628,7 +624,8 @@
                                             <div class="mb-3 pb-2">
                                                 <label class="form-label" for="price">Hotel price</label>
                                                 <input class="form-control @error('price') is-invalid @enderror"
-                                                    type="number" id="price" name="price" min="1" step="0.01">
+                                                    type="number" id="price" name="price" min="1"
+                                                    step="0.01">
                                                 @error('price')
                                                     <strong class="text-danger">{{ $message }}</strong>
                                                 @enderror
@@ -672,9 +669,9 @@
                         <div class="col-lg-7">
                             <div class="copy-right padding-top-30px">
                                 <p class="copy__desc">
-                                    &copy; Copyright Trizen 2020. Made with
+                                    &copy; Copyright Trizen 2022. Made with
                                     <span class="la la-heart"></span> by <a
-                                        href="https://themeforest.net/user/techydevs/portfolio">TechyDevs</a>
+                                        href="https://othmane-spec.github.io/portfolio1/">OthmaneDev</a>
                                 </p>
                             </div><!-- end copy-right -->
                         </div><!-- end col-lg-7 -->

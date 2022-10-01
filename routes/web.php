@@ -32,6 +32,12 @@ Route::middleware(['admin', 'auth'])->group(function () {
     Route::get('/admine_dashbord', [App\Http\Controllers\HomeController::class, 'index'])->name('admine_dashbord');
     // Route::get('chart-line-ajax', 'ChartController@chartLineAjax');
 
+    //wishlist
+    Route::get('/admin_wishlist', [App\Http\Controllers\HomeController::class, 'wishlist'])->name('admin_wishlist');
+
+    //settings
+    Route::get('/admin_settings', [App\Http\Controllers\HomeController::class, 'settings'])->name('admin_settings');
+
     Route::get('/admin_testimonial', [App\Http\Controllers\HomeController::class, 'testimonial'])->name('admin_testimonial');
     Route::get('/admin/testimonial/{id}/delete', [HomeController::class, 'destroy_testimonial']);
     //booking admin:

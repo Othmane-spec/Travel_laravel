@@ -11,8 +11,8 @@
 
 
     <!-- ================================
-                                                                                                                                        START HERO-WRAPPER AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            START HERO-WRAPPER AREA
+                                                                                                                                        ================================= -->
     <section class="hero-wrapper">
         <div class="hero-box hero-bg">
             <span class="line-bg line-bg1"></span>
@@ -722,7 +722,8 @@
                                     </div><!-- end tab-pane -->
                                 </div>
                             </div><!-- end tab-pane --> --}}
-                            <div class="tab-pane fade show active" id="hotel" role="tabpanel" aria-labelledby="hotel-tab">
+                            <div class="tab-pane fade show active" id="hotel" role="tabpanel"
+                                aria-labelledby="hotel-tab">
                                 <div class="contact-form-action">
                                     <form action="#" class="row align-items-center">
                                         <div class="col-lg-3 pr-0">
@@ -760,8 +761,8 @@
                                                 <label class="label-text">Guests</label>
                                                 <div class="form-group">
                                                     <div class="dropdown dropdown-contain gty-container">
-                                                        <a class="dropdown-toggle dropdown-btn" href="#" role="button"
-                                                            data-toggle="dropdown" aria-expanded="false">
+                                                        <a class="dropdown-toggle dropdown-btn" href="#"
+                                                            role="button" data-toggle="dropdown" aria-expanded="false">
                                                             <span class="adult" data-text="Adult"
                                                                 data-text-multi="Adults">0 Adult</span>
                                                             -
@@ -774,12 +775,11 @@
                                                                     class="qty-box d-flex align-items-center justify-content-between">
                                                                     <label>Rooms</label>
                                                                     <div class="qtyBtn d-flex align-items-center">
-                                                                        <div class="qtyDec"><i
-                                                                                class="la la-minus"></i></div>
-                                                                        <input type="text" name="room_number" value="0"
-                                                                            class="qty-input">
-                                                                        <div class="qtyInc"><i
-                                                                                class="la la-plus"></i></div>
+                                                                        <div class="qtyDec"><i class="la la-minus"></i>
+                                                                        </div>
+                                                                        <input type="text" name="room_number"
+                                                                            value="0" class="qty-input">
+                                                                        <div class="qtyInc"><i class="la la-plus"></i></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -788,11 +788,11 @@
                                                                     class="qty-box d-flex align-items-center justify-content-between">
                                                                     <label>Adults</label>
                                                                     <div class="qtyBtn d-flex align-items-center">
-                                                                        <div class="qtyDec"><i
-                                                                                class="la la-minus"></i></div>
-                                                                        <input type="text" name="adult_number" value="0">
-                                                                        <div class="qtyInc"><i
-                                                                                class="la la-plus"></i></div>
+                                                                        <div class="qtyDec"><i class="la la-minus"></i>
+                                                                        </div>
+                                                                        <input type="text" name="adult_number"
+                                                                            value="0">
+                                                                        <div class="qtyInc"><i class="la la-plus"></i></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -801,11 +801,12 @@
                                                                     class="qty-box d-flex align-items-center justify-content-between">
                                                                     <label>Children</label>
                                                                     <div class="qtyBtn d-flex align-items-center">
-                                                                        <div class="qtyDec"><i
-                                                                                class="la la-minus"></i></div>
-                                                                        <input type="text" name="child_number" value="0">
-                                                                        <div class="qtyInc"><i
-                                                                                class="la la-plus"></i></div>
+                                                                        <div class="qtyDec"><i class="la la-minus"></i>
+                                                                        </div>
+                                                                        <input type="text" name="child_number"
+                                                                            value="0">
+                                                                        <div class="qtyInc"><i class="la la-plus"></i>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1767,12 +1768,12 @@
         </div>
     </section><!-- end hero-wrapper -->
     <!-- ================================
-                                                                                                                                        END HERO-WRAPPER AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            END HERO-WRAPPER AREA
+                                                                                                                                        ================================= -->
 
     <!-- ================================
-                                                                                                                                        START INFO AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            START INFO AREA
+                                                                                                                                        ================================= -->
     <section class="info-area info-bg padding-top-50px padding-bottom-50px text-center">
         <div class="container">
             <div class="row">
@@ -1819,14 +1820,14 @@
         </div><!-- end container -->
     </section><!-- end info-area -->
     <!-- ================================
-                                                                                                                                        END INFO AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            END INFO AREA
+                                                                                                                                        ================================= -->
 
     <div class="section-block"></div>
 
     <!-- ================================
-                                                                                                                                        START ROUND-TRIP AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            START ROUND-TRIP AREA
+                                                                                                                                        ================================= -->
     {{-- <section class="round-trip-flight section-padding">
         <div class="container">
             <div class="row">
@@ -2509,12 +2510,12 @@
         </div><!-- end container -->
     </section><!-- end round-trip-flight --> --}}
     <!-- ================================
-                                                                                                                                        END ROUND-TRIP AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            END ROUND-TRIP AREA
+                                                                                                                                        ================================= -->
 
     <!-- ================================
-                                                                                                                                        START HOTEL AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            START HOTEL AREA
+                                                                                                                                        ================================= -->
     <section class="hotel-area section-bg section-padding overflow-hidden padding-right-100px padding-left-100px">
         <div class="container-fluid">
             <div class="row">
@@ -2542,8 +2543,8 @@
                                             data-placement="top" title="Bookmark">
 
 
-                                            <a href="#" class="update_wishlist" data-hotelid="{{ $hotel->id }}"><i
-                                                    class="la la-heart-o"></i></a>
+                                            <a href="#" class="update_wishlist"
+                                                data-hotelid="{{ $hotel->id }}"><i class="la la-heart-o"></i></a>
 
                                         </div>
                                     </div>
@@ -2561,8 +2562,8 @@
                                                 <span class="price__num">{{ $hotel->price }}</span>
                                                 <span class="price__text">Per night</span>
                                             </p>
-                                            <a href="{{ route('detailshotel', $hotel->slug) }}"
-                                                class="btn-text">See details<i class="la la-angle-right"></i></a>
+                                            <a href="{{ route('detailshotel', $hotel->slug) }}" class="btn-text">See
+                                                details<i class="la la-angle-right"></i></a>
                                         </div>
                                     </div>
                                 </div><!-- end card-item -->
@@ -2577,12 +2578,12 @@
         </div><!-- end container-fluid -->
     </section><!-- end hotel-area -->
     <!-- ================================
-                                                                                                                                        END HOTEL AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            END HOTEL AREA
+                                                                                                                                        ================================= -->
 
     <!-- ================================
-                                                                                                                                        START DESTINATION AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            START DESTINATION AREA
+                                                                                                                                        ================================= -->
     {{-- <section class="destination-area section--padding">
         <div class="container">
             <div class="row align-items-center">
@@ -2750,12 +2751,12 @@
         </div><!-- end container -->
     </section><!-- end destination-area --> --}}
     <!-- ================================
-                                                                                                                                        END DESTINATION AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            END DESTINATION AREA
+                                                                                                                                        ================================= -->
 
     <!-- ================================
-                                                                                                                                        START CAR AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            START CAR AREA
+                                                                                                                                        ================================= -->
     {{-- <section class="car-area section-bg section-padding ">
     <div class="container">
         <div class="row">
@@ -2978,12 +2979,12 @@
     </div><!-- end container -->
 </section><!-- end car-area --> --}}
     <!-- ================================
-                                                                                                                                        END CAR AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            END CAR AREA
+                                                                                                                                        ================================= -->
 
     <!-- ================================
-                                                                                                                                           START TESTIMONIAL AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                               START TESTIMONIAL AREA
+                                                                                                                                        ================================= -->
     <section class="testimonial-area section-padding">
         <div class="container">
             <div class="row">
@@ -3029,12 +3030,12 @@
         </div><!-- end container -->
     </section><!-- end testimonial-area -->
     <!-- ================================
-                                                                                                                                           START TESTIMONIAL AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                               START TESTIMONIAL AREA
+                                                                                                                                        ================================= -->
 
     <!-- ================================
-                                                                                                                                        START CTA AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            START CTA AREA
+                                                                                                                                        ================================= -->
     <section class="cta-area padding-top-100px padding-bottom-180px text-center">
         <div class="video-bg">
             <video autoplay loop>
@@ -3060,12 +3061,12 @@
         </svg>
     </section><!-- end cta-area -->
     <!-- ================================
-                                                                                                                                        END CTA AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            END CTA AREA
+                                                                                                                                        ================================= -->
 
     <!-- ================================
-                                                                                                                                           START BLOG AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                               START BLOG AREA
+                                                                                                                                        ================================= -->
     {{-- <section class="blog-area padding-top-30px padding-bottom-90px">
     <div class="container">
         <div class="row">
@@ -3217,12 +3218,12 @@
     </div><!-- end container -->
 </section><!-- end blog-area --> --}}
     <!-- ================================
-                                                                                                                                           START BLOG AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                               START BLOG AREA
+                                                                                                                                        ================================= -->
 
     <!-- ================================
-                                                                                                                                        START MOBILE AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            START MOBILE AREA
+                                                                                                                                        ================================= -->
     {{-- <section class="mobile-app padding-top-100px padding-bottom-50px section-bg">
     <div class="container">
         <div class="row">
@@ -3255,17 +3256,17 @@
     </div><!-- end container -->
 </section><!-- end mobile-app --> --}}
     <!-- ================================
-                                                                                                                                        END MOBILE AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                            END MOBILE AREA
+                                                                                                                                        ================================= -->
 
     <!-- ================================
-                                                                                                                                           START CLIENTLOGO AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                               START CLIENTLOGO AREA
+                                                                                                                                        ================================= -->
     <section class="clientlogo-area padding-top-80px padding-bottom-80px text-center">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="client-logo">
+                    {{-- <div class="client-logo">
                         <div class="client-logo-item">
                             <img src="images/client-logo.png" alt="brand image">
                         </div><!-- end client-logo-item -->
@@ -3284,14 +3285,14 @@
                         <div class="client-logo-item">
                             <img src="images/client-logo6.png" alt="brand image">
                         </div><!-- end client-logo-item -->
-                    </div><!-- end client-logo -->
+                    </div><!-- end client-logo --> --}}
                 </div><!-- end col-lg-12 -->
             </div><!-- end row -->
         </div><!-- end container -->
     </section><!-- end clientlogo-area -->
     <!-- ================================
-                                                                                                                                           START CLIENTLOGO AREA
-                                                                                                                                    ================================= -->
+                                                                                                                                               START CLIENTLOGO AREA
+                                                                                                                                        ================================= -->
 
 
 

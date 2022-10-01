@@ -285,7 +285,8 @@
                                 <div class="contact-form-action">
                                     <form action="#">
                                         <div class="form-group mb-0">
-                                            <input class="form-control" type="text" name="text" placeholder="Search">
+                                            <input class="form-control" type="text" name="text"
+                                                placeholder="Search">
                                             <button class="search-btn"><i class="la la-search"></i></button>
                                         </div>
                                     </form>
@@ -304,8 +305,8 @@
                                             <div
                                                 class="dropdown-menu dropdown-reveal dropdown-menu-xl dropdown-menu-right">
                                                 <div class="dropdown-header drop-reveal-header">
-                                                    <h6 class="title">You have <strong
-                                                            class="text-black">4</strong> notifications</h6>
+                                                    <h6 class="title">You have <strong class="text-black">4</strong>
+                                                        notifications</h6>
                                                 </div>
                                                 <div class="list-group drop-reveal-list">
                                                     <a href="#" class="list-group-item list-group-item-action">
@@ -351,7 +352,8 @@
                                                         </div><!-- end msg-body -->
                                                     </a>
                                                 </div>
-                                                <a href="#" class="dropdown-item drop-reveal-btn text-center">View
+                                                <a href="#"
+                                                    class="dropdown-item drop-reveal-btn text-center">View
                                                     all</a>
                                             </div><!-- end dropdown-menu -->
                                         </div>
@@ -367,8 +369,8 @@
                                             <div
                                                 class="dropdown-menu dropdown-reveal dropdown-menu-xl dropdown-menu-right">
                                                 <div class="dropdown-header drop-reveal-header">
-                                                    <h6 class="title">You have <strong
-                                                            class="text-black">4</strong> messages</h6>
+                                                    <h6 class="title">You have <strong class="text-black">4</strong>
+                                                        messages</h6>
                                                 </div>
                                                 <div class="list-group drop-reveal-list">
                                                     <a href="#" class="list-group-item list-group-item-action">
@@ -436,7 +438,8 @@
                                                         </div><!-- end msg-body -->
                                                     </a>
                                                 </div>
-                                                <a href="#" class="dropdown-item drop-reveal-btn text-center">View
+                                                <a href="#"
+                                                    class="dropdown-item drop-reveal-btn text-center">View
                                                     all</a>
                                             </div><!-- end dropdown-menu -->
                                         </div>
@@ -457,16 +460,8 @@
                                                     <h6 class="title text-uppercase">Welcome!</h6>
                                                 </div>
                                                 <div class="list-group drop-reveal-list user-drop-reveal-list">
-                                                    <a href="admin-dashboard-settings.html"
-                                                        class="list-group-item list-group-item-action">
-                                                        <div class="msg-body">
-                                                            <div class="msg-content">
-                                                                <h3 class="title"><i
-                                                                        class="la la-user mr-2"></i> Edit Profile</h3>
-                                                            </div>
-                                                        </div><!-- end msg-body -->
-                                                    </a>
-                                                    <a href="admin-dashboard-orders.html"
+
+                                                    <a href="{{ route('booking.index') }}"
                                                         class="list-group-item list-group-item-action">
                                                         <div class="msg-body">
                                                             <div class="msg-content">
@@ -484,7 +479,7 @@
                                                             </div>
                                                         </div><!-- end msg-body -->
                                                     </a>
-                                                    <a href="admin-dashboard-settings.html"
+                                                    <a href="{{ route('admin_settings') }}"
                                                         class="list-group-item list-group-item-action">
                                                         <div class="msg-body">
                                                             <div class="msg-content">
@@ -494,7 +489,7 @@
                                                         </div><!-- end msg-body -->
                                                     </a>
                                                     <div class="section-block"></div>
-                                                    <a href="index.html"
+                                                    <a href="{{ route('logout') }}"
                                                         class="list-group-item list-group-item-action">
                                                         <div class="msg-body">
                                                             <div class="msg-content">
@@ -579,7 +574,8 @@
 
                                                 </ul>
                                                 <div class="btn-box">
-                                                    <a href="#" class="theme-btn theme-btn-small theme-btn-transparent"
+                                                    <a href="#"
+                                                        class="theme-btn theme-btn-small theme-btn-transparent"
                                                         data-toggle="modal" data-target="#modalPopup"><i
                                                             class="la la-envelope mr-1"></i>Send Message</a>
                                                 </div>
@@ -619,12 +615,14 @@
                                             <span class="sr-only">Previous</span>
                                         </a>
                                     </li>
-                                    <li class="page-item"><a class="page-link page-link-nav" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link page-link-nav" href="#">1</a>
+                                    </li>
                                     <li class="page-item active">
                                         <a class="page-link page-link-nav" href="#">2 <span
                                                 class="sr-only">(current)</span></a>
                                     </li>
-                                    <li class="page-item"><a class="page-link page-link-nav" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link page-link-nav" href="#">3</a>
+                                    </li>
                                     <li class="page-item">
                                         <a class="page-link page-link-nav" href="#" aria-label="Next">
                                             <span aria-hidden="true"><i class="la la-angle-right"></i></span>
@@ -640,9 +638,9 @@
                         <div class="col-lg-7">
                             <div class="copy-right padding-top-30px">
                                 <p class="copy__desc">
-                                    &copy; Copyright Trizen 2020. Made with
+                                    &copy; Copyright Trizen 2022. Made with
                                     <span class="la la-heart"></span> by <a
-                                        href="https://themeforest.net/user/techydevs/portfolio">TechyDevs</a>
+                                        href="https://othmane-spec.github.io/portfolio1/">OthmaneDev</a>
                                 </p>
                             </div><!-- end copy-right -->
                         </div><!-- end col-lg-7 -->

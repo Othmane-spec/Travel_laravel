@@ -81,6 +81,16 @@ class HomeController extends Controller
         return redirect('admin_testimonial');
     }
 
+    public function wishlist()
+    {
+        return view('admin_wishlist');
+    }
+
+    public function settings()
+    {
+        return view('admin_settings');
+    }
+
     // function dashbord()
     // {
     //     return view('admine_dashbord', compact('bookings'));

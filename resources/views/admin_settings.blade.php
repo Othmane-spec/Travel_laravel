@@ -6,32 +6,44 @@
     <meta name="author" content="TechyDevs">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Trizen - Travel Booking HTML Template</title>
+    <title>Trizen - Travel Booking </title>
     <!-- Favicon -->
-    <link rel="icon" href="/images/favicon.png">
+    <link rel="icon" href="images/favicon.png">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap"
         rel="stylesheet">
 
     <!-- Template CSS Files -->
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap-select.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/line-awesome.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/jquery.fancybox.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/daterangepicker.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/animated-headline.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/flag-icon.min.css') }}">
-
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/line-awesome.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/daterangepicker.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/animated-headline.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/flag-icon.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="section-bg">
+    <!-- start cssload-loader -->
+    <div class="preloader" id="preloader">
+        <div class="loader">
+            <svg class="spinner" viewBox="0 0 50 50">
+                <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5">
+                </circle>
+            </svg>
+        </div>
+    </div>
+    <!-- end cssload-loader -->
 
+    <!-- ================================
+       START USER CANVAS MENU
+================================= -->
     <div class="user-canvas-container">
         <div class="side-menu-close">
             <i class="la la-times"></i>
@@ -139,7 +151,7 @@
                                 <a href="#" class="list-group-item list-group-item-action">
                                     <div class="msg-body d-flex align-items-center">
                                         <div class="avatar flex-shrink-0 mr-3">
-                                            <img src="/images/team8.jpg" alt="">
+                                            <img src="images/team8.jpg" alt="">
                                         </div>
                                         <div class="msg-content w-100">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -153,7 +165,7 @@
                                 <a href="#" class="list-group-item list-group-item-action">
                                     <div class="msg-body d-flex align-items-center">
                                         <div class="avatar flex-shrink-0 mr-3">
-                                            <img src="/images/team9.jpg" alt="">
+                                            <img src="images/team9.jpg" alt="">
                                         </div>
                                         <div class="msg-content w-100">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -167,7 +179,7 @@
                                 <a href="#" class="list-group-item list-group-item-action">
                                     <div class="msg-body d-flex align-items-center">
                                         <div class="avatar flex-shrink-0 mr-3">
-                                            <img src="/images/team10.jpg" alt="">
+                                            <img src="images/team10.jpg" alt="">
                                         </div>
                                         <div class="msg-content w-100">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -181,7 +193,7 @@
                                 <a href="#" class="list-group-item list-group-item-action">
                                     <div class="msg-body d-flex align-items-center">
                                         <div class="avatar flex-shrink-0 mr-3">
-                                            <img src="/images/team11.jpg" alt="">
+                                            <img src="images/team11.jpg" alt="">
                                         </div>
                                         <div class="msg-content w-100">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -201,7 +213,7 @@
                         <div class="notification-item">
                             <a href="user-dashboard-profile.html" class="dropdown-item">
                                 <div class="d-flex align-items-center">
-                                    <div class="avatar avatar-sm flex-shrink-0 mr-2"><img src="/images/team8.jpg"
+                                    <div class="avatar avatar-sm flex-shrink-0 mr-2"><img src="images/team8.jpg"
                                             alt="team-img"></div>
                                     <span class="font-size-14 font-weight-bold">Ali Tufan</span>
                                 </div>
@@ -249,12 +261,22 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div><!-- end user-canvas-container -->
+    <!-- ================================
+       END USER CANVAS MENU
+================================= -->
 
-
+    <!-- ================================
+       START DASHBOARD NAV
+================================= -->
     @include('partials.sidebar')
+    <!-- ================================
+       END DASHBOARD NAV
+================================= -->
 
-
+    <!-- ================================
+    START DASHBOARD AREA
+================================= -->
     <section class="dashboard-area">
         <div class="dashboard-nav dashboard--nav">
             <div class="container-fluid">
@@ -262,7 +284,7 @@
                     <div class="col-lg-12">
                         <div class="menu-wrapper">
                             <div class="logo mr-5">
-                                <a href="index.html"><img src="/images/logo2.png" alt="logo"></a>
+                                <a href="index.html"><img src="images/logo2.png" alt="logo"></a>
                                 <div class="menu-toggler">
                                     <i class="la la-bars"></i>
                                     <i class="la la-times"></i>
@@ -364,7 +386,7 @@
                                                     <a href="#" class="list-group-item list-group-item-action">
                                                         <div class="msg-body d-flex align-items-center">
                                                             <div class="avatar flex-shrink-0 mr-3">
-                                                                <img src="/images/team8.jpg" alt="">
+                                                                <img src="images/team8.jpg" alt="">
                                                             </div>
                                                             <div class="msg-content w-100">
                                                                 <div
@@ -380,7 +402,7 @@
                                                     <a href="#" class="list-group-item list-group-item-action">
                                                         <div class="msg-body d-flex align-items-center">
                                                             <div class="avatar flex-shrink-0 mr-3">
-                                                                <img src="/images/team9.jpg" alt="">
+                                                                <img src="images/team9.jpg" alt="">
                                                             </div>
                                                             <div class="msg-content w-100">
                                                                 <div
@@ -396,7 +418,7 @@
                                                     <a href="#" class="list-group-item list-group-item-action">
                                                         <div class="msg-body d-flex align-items-center">
                                                             <div class="avatar flex-shrink-0 mr-3">
-                                                                <img src="/images/team10.jpg" alt="">
+                                                                <img src="images/team10.jpg" alt="">
                                                             </div>
                                                             <div class="msg-content w-100">
                                                                 <div
@@ -412,7 +434,7 @@
                                                     <a href="#" class="list-group-item list-group-item-action">
                                                         <div class="msg-body d-flex align-items-center">
                                                             <div class="avatar flex-shrink-0 mr-3">
-                                                                <img src="/images/team11.jpg" alt="">
+                                                                <img src="images/team11.jpg" alt="">
                                                             </div>
                                                             <div class="msg-content w-100">
                                                                 <div
@@ -437,7 +459,7 @@
                                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <div class="d-flex align-items-center">
                                                     <div class="avatar avatar-sm flex-shrink-0 mr-2"><img
-                                                            src="/images/team8.jpg" alt="team-img"></div>
+                                                            src="images/team8.jpg" alt="team-img"></div>
                                                     <span class="font-size-14 font-weight-bold">Royel Admin</span>
                                                 </div>
                                             </a>
@@ -503,7 +525,7 @@
                         <div class="col-lg-6">
                             <div class="breadcrumb-content">
                                 <div class="section-heading">
-                                    <h2 class="sec__title font-size-30 text-white">Booking</h2>
+                                    <h2 class="sec__title font-size-30 text-white">Settings</h2>
                                 </div>
                             </div><!-- end breadcrumb-content -->
                         </div><!-- end col-lg-6 -->
@@ -512,7 +534,7 @@
                                 <ul class="list-items">
                                     <li><a href="index.html" class="text-white">Home</a></li>
                                     <li>Dashboard</li>
-                                    <li>Booking</li>
+                                    <li>Settings</li>
                                 </ul>
                             </div><!-- end breadcrumb-list -->
                         </div><!-- end col-lg-6 -->
@@ -522,82 +544,258 @@
             <div class="dashboard-main-content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-6">
                             <div class="form-box">
                                 <div class="form-title-wrap">
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <h3 class="title">Add new Category</h3>
-                                        {{-- <div class="select-contain">
-                                            <select class="select-contain-select">
-                                                <option value="1">Any Status</option>
-                                                <option value="2">Approved</option>
-                                                <option value="3">Pending</option>
-                                                <option value="4">Cancelled</option>
-                                            </select>
-                                        </div> --}}
-
-                                    </div>
+                                    <h3 class="title">Profile Setting</h3>
                                 </div>
-
-                                <div class="col-md-7">
-                                    <div class="form-content pb-2 ">
-                                        <div class="pt-2">
-                                            <form method="post" action="{{ route('room_types.store') }}"
-                                                enctype="multipart/form-data">
-                                                @csrf
-                                                <div class="mb-3 pb-2">
-                                                    <label class="form-label" for="name">Room Types Name :</label>
-                                                    <input class="form-control @error('name') is-invalid @enderror"
-                                                        type="text" id="name" name="name">
-                                                    @error('name')
-                                                        <strong class="text-danger">{{ $message }}</strong>
-                                                    @enderror
-                                                </div>
-
-                                                <button class="btn btn-primary " type="submit"><i
-                                                        class="ci-cloud-upload fs-lg me-2"></i>Add Room Type
-                                                </button>
-                                            </form>
+                                <div class="form-content">
+                                    <div class="user-profile-action d-flex align-items-center pb-4">
+                                        <div class="user-pro-img">
+                                            <img src="images/team1.jpg" alt="user-image">
+                                        </div>
+                                        <div class="upload-btn-box">
+                                            <div class="file-upload-wrap file-upload-wrap-2">
+                                                <input type="file" name="files[]"
+                                                    class="multi file-upload-input with-preview" maxlength="1">
+                                                <span class="file-upload-text"><i class="la la-upload mr-2"></i>Upload
+                                                    Image</span>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="contact-form-action">
+                                        <form action="#">
+                                            <div class="row">
+                                                <div class="col-lg-6 responsive-column">
+                                                    <div class="input-box">
+                                                        <label class="label-text">Website Title</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-user form-icon"></span>
+                                                            <input class="form-control" type="text"
+                                                                value="Royel travel agency">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-6 -->
+                                                <div class="col-lg-6 responsive-column">
+                                                    <div class="input-box">
+                                                        <label class="label-text">Email Address</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-envelope form-icon"></span>
+                                                            <input class="form-control" type="text"
+                                                                value="royeltravelagency@gmail.com">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-6 -->
+                                                <div class="col-lg-6 responsive-column">
+                                                    <div class="input-box">
+                                                        <label class="label-text">Phone</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-phone form-icon"></span>
+                                                            <input class="form-control" type="text"
+                                                                value="+ 00 222 44 5678">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-6 -->
+                                                <div class="col-lg-6 responsive-column">
+                                                    <div class="input-box">
+                                                        <label class="label-text">Address</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-map form-icon"></span>
+                                                            <input class="form-control" type="text"
+                                                                value="124/6 Street view, USA">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-6 -->
+                                                <div class="col-lg-12">
+                                                    <div class="btn-box">
+                                                        <button class="theme-btn" type="button">Save Changes</button>
+                                                    </div>
+                                                </div><!-- end col-lg-12 -->
+                                            </div><!-- end row -->
+                                        </form>
+                                    </div>
                                 </div>
-
                             </div><!-- end form-box -->
-                        </div><!-- end col-lg-12 -->
+                        </div><!-- end col-lg-6 -->
+                        <div class="col-lg-6">
+                            <div class="form-box">
+                                <div class="form-title-wrap">
+                                    <h3 class="title">Change Email</h3>
+                                </div>
+                                <div class="form-content">
+                                    <div class="contact-form-action">
+                                        <form action="#">
+                                            <div class="row">
+                                                <div class="col-lg-12 responsive-column">
+                                                    <div class="input-box">
+                                                        <label class="label-text">Current Email</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-envelope form-icon"></span>
+                                                            <input class="form-control" type="text"
+                                                                placeholder="Current email">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-12 -->
+                                                <div class="col-lg-12 responsive-column">
+                                                    <div class="input-box">
+                                                        <label class="label-text">New Email</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-envelope form-icon"></span>
+                                                            <input class="form-control" type="text"
+                                                                placeholder="New email">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-12 -->
+                                                <div class="col-lg-12 responsive-column">
+                                                    <div class="input-box">
+                                                        <label class="label-text">New Email Again</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-envelope form-icon"></span>
+                                                            <input class="form-control" type="text"
+                                                                placeholder="New email again">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-12 -->
+                                                <div class="col-lg-12">
+                                                    <div class="btn-box">
+                                                        <button class="theme-btn" type="button">Change Email</button>
+                                                    </div>
+                                                </div><!-- end col-lg-12 -->
+                                            </div><!-- end row -->
+                                        </form>
+                                    </div>
+                                </div>
+                            </div><!-- end form-box -->
+                        </div><!-- end col-lg-6 -->
+                        <div class="col-lg-6">
+                            <div class="form-box">
+                                <div class="form-title-wrap">
+                                    <h3 class="title">Change Password</h3>
+                                </div>
+                                <div class="form-content">
+                                    <div class="contact-form-action">
+                                        <form action="#">
+                                            <div class="row">
+                                                <div class="col-lg-6 responsive-column">
+                                                    <div class="input-box">
+                                                        <label class="label-text">Current Password</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-lock form-icon"></span>
+                                                            <input class="form-control" type="text"
+                                                                placeholder="Current password">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-6 -->
+                                                <div class="col-lg-6 responsive-column">
+                                                    <div class="input-box">
+                                                        <label class="label-text">New Password</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-lock form-icon"></span>
+                                                            <input class="form-control" type="text"
+                                                                placeholder="New password">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-6 -->
+                                                <div class="col-lg-6 responsive-column">
+                                                    <div class="input-box">
+                                                        <label class="label-text">New Password Again</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-lock form-icon"></span>
+                                                            <input class="form-control" type="text"
+                                                                placeholder="New password again">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-6 -->
+                                                <div class="col-lg-12">
+                                                    <div class="btn-box">
+                                                        <button class="theme-btn" type="button">Change
+                                                            Password</button>
+                                                    </div>
+                                                </div><!-- end col-lg-12 -->
+                                            </div><!-- end row -->
+                                        </form>
+                                    </div>
+                                </div>
+                            </div><!-- end form-box -->
+                        </div><!-- end col-lg-6 -->
+                        <div class="col-lg-6">
+                            <div class="form-box">
+                                <div class="form-title-wrap">
+                                    <h3 class="title">Payment Account Settings</h3>
+                                </div>
+                                <div class="form-content">
+                                    <div class="contact-form-action">
+                                        <form method="post">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-4">
+                                                    <div class="input-box">
+                                                        <label class="label-text">Name on Card</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-pencil form-icon"></span>
+                                                            <input class="form-control" type="text" name="text"
+                                                                value="Amex">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-4 col-sm-4">
+                                                    <div class="input-box">
+                                                        <label class="label-text">Card Number</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-pencil form-icon"></span>
+                                                            <input class="form-control" type="text" name="text"
+                                                                value="3275476222500">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-4 col-sm-4">
+                                                    <div class="input-box">
+                                                        <label class="label-text">Expiry Month</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-pencil form-icon"></span>
+                                                            <input class="form-control" type="text" name="text"
+                                                                value="MM">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-6 col-sm-6">
+                                                    <div class="input-box">
+                                                        <label class="label-text">Expiry Year</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-pencil form-icon"></span>
+                                                            <input class="form-control" type="text" name="text"
+                                                                value="YY">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-6 -->
+                                                <div class="col-lg-6 col-sm-6">
+                                                    <div class="input-box">
+                                                        <label class="label-text">CVV</label>
+                                                        <div class="form-group">
+                                                            <span class="la la-pencil form-icon"></span>
+                                                            <input class="form-control" type="text" name="text"
+                                                                value="CVV">
+                                                        </div>
+                                                    </div>
+                                                </div><!-- end col-lg-6 -->
+                                                <div class="col-lg-12">
+                                                    <div class="btn-box">
+                                                        <button class="theme-btn" type="submit">Save Changes</button>
+                                                    </div>
+                                                </div><!-- end col-lg-12 -->
+                                            </div><!-- end row -->
+                                        </form>
+                                    </div>
+                                </div>
+                            </div><!-- end form-box -->
+                        </div><!-- end col-lg-6 -->
                     </div><!-- end row -->
-                    {{-- <div class="row">
-                        <div class="col-lg-12">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination">
-                                    <li class="page-item">
-                                        <a class="page-link page-link-nav" href="#" aria-label="Previous">
-                                            <span aria-hidden="true"><i class="la la-angle-left"></i></span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                    </li>
-                                    <li class="page-item"><a class="page-link page-link-nav" href="#">1</a></li>
-                                    <li class="page-item active">
-                                        <a class="page-link page-link-nav" href="#">2 <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="page-item"><a class="page-link page-link-nav" href="#">3</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link page-link-nav" href="#" aria-label="Next">
-                                            <span aria-hidden="true"><i class="la la-angle-right"></i></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div> --}}
-                    <div class="border-top mt-5"></div>
+                    <div class="border-top mt-4"></div>
                     <div class="row align-items-center">
                         <div class="col-lg-7">
                             <div class="copy-right padding-top-30px">
                                 <p class="copy__desc">
                                     &copy; Copyright Trizen 2022. Made with
-                                    <span class="la la-heart"></span> by <a
-                                        href="https://othmane-spec.github.io/portfolio1/">OthmaneDev</a>
+                                    <span class="la la-heart"></span> by <a href="#">OthmaneDev</a>
                                 </p>
                             </div><!-- end copy-right -->
                         </div><!-- end col-lg-7 -->
@@ -615,37 +813,33 @@
                 </div><!-- end container-fluid -->
             </div><!-- end dashboard-main-content -->
         </div><!-- end dashboard-content-wrap -->
-    </section>
+    </section><!-- end dashboard-area -->
+    <!-- ================================
+    END DASHBOARD AREA
+================================= -->
 
-
-
-
-
-
-
-
-
+    <!-- start scroll top -->
+    <div id="back-to-top">
+        <i class="la la-angle-up" title="Go top"></i>
+    </div>
+    <!-- end scroll top -->
 
 
     <!-- Template JS Files -->
-    <script src="{{ asset('js/jquery-3.4.1.min.js') }}"></script>
-    <script src="{{ asset('js/jquery-ui.js') }}"></script>
-    <script src="{{ asset('js/popper.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap-select.min.js') }}"></script>
-    <script src="{{ asset('js/moment.min.js') }}"></script>
-    <script src="{{ asset('js/daterangepicker.js') }}"></script>
-    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.fancybox.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.countTo.min.js') }}"></script>
-    <script src="{{ asset('js/animated-headline.js') }}"></script>
-    <script src="{{ asset('js/jquery.ripples-min.js') }}"></script>
-    <script src="{{ asset('js/quantity-input.js') }}"></script>
-
-    <script src="{{ asset('js/main.js') }}"></script>
-
-    <script src="//code.jquery.com/jquery.js"></script>
-    {{-- @include('flashy::message') --}}
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/daterangepicker.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.countTo.min.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/jquery.multi-file.min.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

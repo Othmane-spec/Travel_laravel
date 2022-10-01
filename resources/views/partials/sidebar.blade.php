@@ -53,7 +53,7 @@
                 <li><a href="{{ route('admin_testimonial') }}"><i class="la la-star mr-2 text-color-5"></i>Clients
                         Reviews</a>
                 </li>
-                <li><a href="admin-dashboard-wishlist.html"><i class="la la-heart mr-2 text-color-6"></i>Wishlist</a>
+                <li><a href="{{ route('admin_wishlist') }}"><i class="la la-heart mr-2 text-color-6"></i>Wishlist</a>
                 </li>
                 {{-- <li><a href="admin-dashboard-travel-agents.html"><i
                             class="la la-text-width mr-2 text-color-7"></i>Travel Agents</a></li> --}}
@@ -79,7 +79,7 @@
                         <li><a href="admin-airlines.html">Airlines</a></li>
                     </ul>
                 </li> --}}
-                <li><a href="admin-dashboard-settings.html"><i class="la la-cog mr-2 text-color-10"></i>Settings</a>
+                <li><a href="{{ route('admin_settings') }}"><i class="la la-cog mr-2 text-color-10"></i>Settings</a>
                 </li>
                 <li><a href="{{ route('logout') }}"><i class="la la-power-off mr-2 text-color-11"></i>Logout</a></li>
             </ul>
